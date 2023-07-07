@@ -119,37 +119,3 @@ ul li span:hover{
     background: #edeef0;
 }
 
-/* Media Queries */
-@media only screen and (max-width: 768px) {
-    .todo-app {
-      padding: 20px;
-    }
-  
-    .row {
-      flex-wrap: wrap;
-      justify-content: flex-start;
-    }
-  
-    input {
-      flex: 0 0 70%;
-      margin-bottom: 10px;
-    }
-  
-    button {
-      flex: 0 0 25%;
-    }
-  }
-  
-  @media only screen and (max-width: 480px) {
-    .todo-app {
-      margin: 50px auto 20px;
-    }
-  
-    input {
-      flex: 0 0 60%;
-    }
-  
-    button {
-      flex: 0 0 35%;
-    }
-  }
