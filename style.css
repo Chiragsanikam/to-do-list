@@ -51,13 +51,14 @@ border-radius: 10px;
 }
 
 input{
-    flex: 1;
+    /* flex: 1; */
     border: none;
     outline: none;
     background: transparent;
     padding: 10px;
     font-weight: 14px;
     flex-shrink: 0;
+    width: 30%;
 }
 
 button{
@@ -119,3 +120,5 @@ ul li span:hover{
     background: #edeef0;
 }
 
+
+  
